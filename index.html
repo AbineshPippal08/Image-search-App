@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <h1>Image Search App</h1>
+    <form action="">
+        <input type="text" id="search-input" placeholder="search for image">
+    <button id="search-button">Search</button></form>
+
+
+    <div class="search-results">
+        <div class="search-result">
+            <img src="https://source.unsplash.com/random/?romantic-couples#<%+new Date().getTime()%>"
+             alt="Romantic-Couples">
+            <a href="https://unsplash.com/photos/a-beach-with-waves-coming-in-and-out-of-the-rocks-BCaBMlDwutQ"
+             target="_blank">Romantic-Couples</a>
+        </div>
+        <div class="search-result">
+            <img src="https://source.unsplash.com/random/?Nude-Girls#<%+new Date().getTime()%>"
+             alt="Nude-Girls">
+            <a href="https://unsplash.com/photos/a-beach-with-waves-coming-in-and-out-of-the-rocks-BCaBMlDwutQ"
+             target="_blank">Nude-Girls</a>
+        </div>
+        <div class="search-result">
+            <img src="https://source.unsplash.com/random/?bra#<%+new Date().getTime()%>"
+             alt="bra">
+            <a href="https://unsplash.com/photos/a-beach-with-waves-coming-in-and-out-of-the-rocks-BCaBMlDwutQ"
+             target="_blank">Bra</a>
+        </div>
+    </div>
+
+    <button id="show-more-button">Show More</button>
+
+    <script src="index.js"></script>
+</body>
+</html>
